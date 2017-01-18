@@ -2,7 +2,9 @@
   "deploy": {
     "type": "S3",
     "target": {
-      "master": "githubwww"
+      "master": "coaching-s3-http",
+      "test": "test-coaching-s3-http",
+      "dev": "dev-coaching-s3-http"
     }
   }
 }
